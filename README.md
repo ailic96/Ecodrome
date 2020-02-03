@@ -1,5 +1,7 @@
 Educative game Ecodrome
 Final paper - Project scripts
+Author: Anton Ilić
+Mentor:
 
 Ecodrome is an educative mix genre game made in June-August 2019 for my final paper. 
 This Git repository containts scripts written for Unity Engine in C#. 
@@ -28,3 +30,7 @@ The game consists of 3 levels
      Trivia mode in which a player checks his knowledge gained by playing
      the game. This level has a scoreboard and a timer. Each question 
      has three answers and only one answer is correct
+     
+  ADDITIONAL INFORMATION:
+  .meta files are not included in .gitignore because they define connections between scripts
+  and game objects.
