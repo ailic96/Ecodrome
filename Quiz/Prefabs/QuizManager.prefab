@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5292671058754659249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5292671058754659255}
+  - component: {fileID: 5292671058754659254}
+  - component: {fileID: 5292671058754659252}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5292671058754659255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292671058754659249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 323.59732, y: 292.6525, z: 1.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5292671058754659254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292671058754659249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3735958ebfb3b9043962b5634ec33b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - question: What is the color of trash bins used for plastic waste?
+    anwser1:
+      anwser: Yellow
+      isCorrect: 1
+    anwser2:
+      anwser: Orange
+      isCorrect: 0
+    anwser3:
+      anwser: Blue
+      isCorrect: 0
+  - question: What is the color of trash bins used for paper waste?
+    anwser1:
+      anwser: Blue
+      isCorrect: 1
+    anwser2:
+      anwser: Yellow
+      isCorrect: 0
+    anwser3:
+      anwser: Green
+      isCorrect: 0
+  - question: What is the color of trash bins used for glass waste?
+    anwser1:
+      anwser: Red
+      isCorrect: 0
+    anwser2:
+      anwser: Yellow
+      isCorrect: 0
+    anwser3:
+      anwser: Green
+      isCorrect: 1
+  - question: How long does it take for plastic waste to decompose?
+    anwser1:
+      anwser: 10 years
+      isCorrect: 0
+    anwser2:
+      anwser: 500 years
+      isCorrect: 1
+    anwser3:
+      anwser: 700 years
+      isCorrect: 0
+  - question: 'The average weight of plastic waste produced by a single family anually
+      is:'
+    anwser1:
+      anwser: 70
+      isCorrect: 0
+    anwser2:
+      anwser: 40
+      isCorrect: 1
+    anwser3:
+      anwser: 24
+      isCorrect: 0
+  - question: How many trees does it take to produce 1 ton of newspaper?
+    anwser1:
+      anwser: 24
+      isCorrect: 1
+    anwser2:
+      anwser: 1
+      isCorrect: 0
+    anwser3:
+      anwser: 30
+      isCorrect: 0
+  - question: The term ecology was first coined by ...
+    anwser1:
+      anwser: Albert Einstein
+      isCorrect: 0
+    anwser2:
+      anwser: Charles Darwin
+      isCorrect: 0
+    anwser3:
+      anwser: Ernst Haeckel
+      isCorrect: 1
+  - question: Dangerous plastic fibres which are present everywhere are called...
+    anwser1:
+      anwser: Microplastic
+      isCorrect: 1
+    anwser2:
+      anwser: Macroplastic
+      isCorrect: 0
+    anwser3:
+      anwser: Fibreplastic
+      isCorrect: 0
+  - question: Which car component is responsible for producing 20 grams of microplastic
+      every 100 kilometers?
+    anwser1:
+      anwser: Clutch
+      isCorrect: 0
+    anwser2:
+      anwser: Tires
+      isCorrect: 1
+    anwser3:
+      anwser: Exaust
+      isCorrect: 0
+  questionText: {fileID: 0}
+  anwserText1: {fileID: 0}
+  anwserText2: {fileID: 0}
+  anwserText3: {fileID: 0}
+  GameOverPanel: {fileID: 0}
+  replayButton: {fileID: 0}
+  GameOverText: {fileID: 0}
+  questionDelay: 3
+  button1: {fileID: 0}
+  button2: {fileID: 0}
+  button3: {fileID: 0}
+  newColor: {r: 0.9528302, g: 0.0764062, b: 0.0764062, a: 1}
+  timeRemaining: 10
+  timeRemainingText: {fileID: 0}
+  activeRound: 1
+  roundLost: 0
+--- !u!114 &5292671058754659252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292671058754659249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414295cfafc29c44397ab47a2f2dc72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
