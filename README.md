@@ -32,3 +32,7 @@ The game consists of 3 levels:
   __ADDITIONAL INFORMATION:__ </br>
   .meta files are not included in _.gitignore_ because they define connections between scripts
   and game objects.
+  
+  __GAME EXECUTABLE:__
+  [Download](https://drive.google.com/drive/folders/1vXoFGQd8bQhpyEOOVEgDeCAvbujfXoZL?usp=sharing)
+  
