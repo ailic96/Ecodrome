@@ -17,18 +17,18 @@ __SPECIFICATIONS:__
 <br/>
 __ABOUT:__
 * The game consists of 3 levels
-  1. __Learner:__
+  * __Learner:__
  ⋅⋅* An open 3D world level. Player collects educative informations about
     ecological problems and solves a puzzle. This part of the game 
     containts obstracles.
-  2. __Runner:__
+  * __Runner:__
   ⋅⋅* Endless runner mode in which player collects educative informations
     and avoids obstracles. This level has a highsore element and a timer.
-  3. __Quiz:__
+  * __Quiz:__
   ⋅⋅* Trivia mode in which a player checks his knowledge gained by playing
      the game. This level has a scoreboard and a timer. Each question 
      has three answers and only one answer is correct
-     
+     <br/>
   __ADDITIONAL INFORMATION:__
   .meta files are not included in .gitignore because they define connections between scripts
   and game objects.
